@@ -1,0 +1,35 @@
+body {
+    background-color: #FAEBD7
+}
+
+.navbar {
+    width: 100%;
+}
+
+.bg_gradiend_card {
+    background: rgb(2,0,36);
+    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(185,127,127,1) 42%, rgba(17,17,17,1) 100%);
+}
+
+.img_card {
+    margin-left:25%;
+    margin-top: 5px;
+    width:50%;
+}
+
+.card_button_redirect:hover {
+    background:#cea052;
+    border-color: #cea052;
+}
+
+.card_button_redirect:hover::after {
+    content: " »";
+}
+
+.img_page {
+    width: 30%;
+}
+
+.height_card {
+    height: 100%;
+}
